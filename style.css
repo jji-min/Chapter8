@@ -1,0 +1,93 @@
+.back-color{
+    background-color: white;
+    border: 3px double black;
+}
+
+.nav-link{
+    color: black;    
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.form-control{
+    border: 1px solid black;
+}
+.form-control:focus{
+    border-color: gray;
+    box-shadow: 0 0 0 .25rem gray;
+}
+
+.btn-outline-success{
+    border-color: black;
+    color: black;
+}
+.btn-outline-success:hover{
+    color: white;
+    border-color: gray;
+    background-color: gray;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.account a{
+    text-decoration: none;
+    color: gray;
+}
+.account a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+}
+
+.first-line{
+    border-bottom: 1px solid black;
+}
+
+.second-line a{
+    text-decoration: none;
+    color: white;
+}
+.second-line a:hover{
+    color: black;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .account{
+        font-size: 12px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .col{
+        padding-bottom: 1rem;
+    }
+
+    .world{
+        display: none;
+    }
+
+    .first-line{
+        text-align: center;
+    }
+
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid black;
+    }
+
+    .third-line{
+        display: block;
+    }
+}
